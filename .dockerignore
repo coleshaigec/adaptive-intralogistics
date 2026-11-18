@@ -1,0 +1,71 @@
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tests and coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+.tox/
+.nox/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated simulation data
+outputs/
+results/
+artifacts/
+logs/
+scratch/
+tmp/
+temp/
+*.log
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Documentation and reports
+docs/
+paper/
+reports/
+
+# Docker tooling
+Dockerfile*
+docker-compose*.yml
+docker-compose*.yaml
+.dockerignore
